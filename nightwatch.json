@@ -2,6 +2,7 @@
 "src_folders": [
     "tests"
 ],
+"output_folder" : "../reports",
 "selenium": {
     "start_process": true,
     "server_path": "bin/selenium-server-standalone-2.52.0.jar",
