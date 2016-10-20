@@ -14,9 +14,8 @@ module.exports = {
       .setValue('input[id=FWloginPassword]', dataSet.getPassword())
       .pause(1000)
       .useXpath()
-      .click("//*[@class='webs-ext-btn webs-ext-btn-blue submit']")
-      .waitForElementVisible('body', 5000)
-      .expect.element('body').to.have.attribute('class').which.contains('internal style2012 mysites');
-      .end();
+      .click("//*[@class='webs-ext-btn webs-ext-btn-blue submit']");
+      browser.expect.element('body').to.be.present.before(1000);
+      browser.end();
   }
 };

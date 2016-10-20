@@ -5,15 +5,15 @@
 
   <testsuite name="test"
     errors="1" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="0.006000" timestamp="Wed, 19 Oct 2016 13:23:58 GMT">
+    tests="1" time="0.008000" timestamp="Thu, 20 Oct 2016 10:58:29 GMT">
   
-    <testcase name="DemotestGoogle" time="0.006000" assertions="0">
+    <testcase name="DemotestGoogle" time="0.008000" assertions="0">
     </testcase>
       <system-err>
           Error while running [Tests / Test / DemotestGoogle]:
 
-  ReferenceError: dataSet is not defined
-    at Object.module.exports.DemotestGoogle (/Users/mbelhaouane/Documents/jsTests/tests/test.js:12:46)
+  TypeError: browser.url(...).waitForElementVisible(...).click(...).pause(...).setValue(...).pause(...).setValue(...).pause(...).useXpath(...).click(...).expect.element(...).to.be.present.before(...).end is not a function
+    at Object.module.exports.DemotestGoogle (/Users/mbelhaouane/Documents/YMNightWatch/tests/test.js:21:8)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

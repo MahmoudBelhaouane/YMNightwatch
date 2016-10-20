@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="test"
-    errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="16.96" timestamp="Wed, 19 Oct 2016 13:47:21 GMT">
+    errors="0" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="1" time="47.91" timestamp="Thu, 20 Oct 2016 10:59:39 GMT">
   
-    <testcase name="DemotestGoogle" time="16.96" assertions="1">
+    <testcase name="DemotestGoogle" time="47.91" assertions="2">
+
+      <failure message="Expected element &lt;body&gt; to be present in 1000ms - element was not found">    at Object.module.exports.DemotestGoogle (/Users/mbelhaouane/Documents/YMNightWatch/tests/test.js:18:22)</failure>
 
     
     </testcase>
