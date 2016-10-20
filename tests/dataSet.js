@@ -1,7 +1,7 @@
 module.exports = {
 
 getWebsiteUrl : function(){
-	return 'http://www.webs.dev';
+	return 'http://www.webs.com';
 },
 
 getEmailAdress : function(){
