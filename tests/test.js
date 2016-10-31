@@ -18,6 +18,5 @@ module.exports = {
       .waitForElementVisible('body', 5000)
       .expect.element('body').to.have.attribute('class').which.contains('internal style2012 mysites');
       .end()
-      .end();
   }
 };
