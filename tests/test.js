@@ -17,6 +17,7 @@ module.exports = {
       .click("//*[@class='webs-ext-btn webs-ext-btn-blue submit']")
       .waitForElementVisible('body', 5000)
       .expect.element('body').to.have.attribute('class').which.contains('internal style2012 mysites');
+      .end()
       .end();
   }
 };
